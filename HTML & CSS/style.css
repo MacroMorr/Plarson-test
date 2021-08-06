@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e1e1e1;
+}
+
+.header {
+    padding: 1rem 1.5rem;
+    max-width: 1980px;
+    max-height: 50px;
+    margin: 0 auto;
+    border: 3px solid #ef4242;
+}
+
+.header p {
+    font-size: 18px;
+    position: relative;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.navigation {
+    float: left;
+    border: 3px solid #f59c55;
+    width: 200px;
+    height: 800px;
+    overflow: scroll;
+}
+
+
+.container {
+    border: 3px solid #7b0808;
+    position: relative;
+    max-width: 100%;
+    height: 800px;
+    margin: 0 0 0 200px;
+}
+
+.container .chat {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.container .chat .list {
+    list-style: none;
+}
+
+
+.footer {
+    border: 3px solid #257e25;
+    height: 100px;
+
+}
+
+.footer p {
+    font-size: 18px;
+    position: relative;
+    width: 100px;
+    margin: 40px auto;
+}
